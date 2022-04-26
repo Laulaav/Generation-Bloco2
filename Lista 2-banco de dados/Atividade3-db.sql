@@ -62,4 +62,7 @@ select * from tb_produtos inner join
 tb_categorias on tb_categorias.id = tb_produtos.id_categorias;
 
 select tb_produtos.nome, tb_categorias.categoria, tb_categorias.funcao from tb_produtos inner join 
+tb_categorias on tb_categorias.id = tb_produtos.id_categorias;
+
+select tb_produtos.nome, tb_categorias.categoria, tb_categorias.funcao from tb_produtos inner join 
 tb_categorias on tb_categorias.id = tb_produtos.id_categorias where categoria = "Beleza";
