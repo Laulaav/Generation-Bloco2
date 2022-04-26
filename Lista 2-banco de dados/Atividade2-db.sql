@@ -62,6 +62,9 @@ select * from tb_pizzas inner join
 tb_categorias on tb_categorias.id = tb_pizzas.id_categorias;
 
 select tb_pizzas.nome, tb_categorias.categoria, tb_categorias.fatia from tb_pizzas inner join 
+tb_categorias on tb_categorias.id = tb_pizzas.id_categorias;
+
+select tb_pizzas.nome, tb_categorias.categoria, tb_categorias.fatia from tb_pizzas inner join 
 tb_categorias on tb_categorias.id = tb_pizzas.id_categorias where categoria = "Estrela";
 
 
